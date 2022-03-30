@@ -1,8 +1,8 @@
 import EventList from "../../components/event/EventList";
-import { getFeaturedEvents } from "../../dummy-data";
+import { getAllEvents } from "../../dummy-data";
 
 const Events = () => {
-  const FeaturedEvents = getFeaturedEvents();
+  const FeaturedEvents = getAllEvents();
   return <EventList items={FeaturedEvents} />;
 };
 
